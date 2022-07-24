@@ -1,0 +1,139 @@
+
+
+body{
+    background-color: aqua;
+}
+
+
+// let seisCuotas = 6;
+//let doceCuotas = 12;
+//t dieciochoCuotas = 18;
+//let veinticuatroCuotas = 24;
+
+//const VALOR
+let registrarse = confirm ("Quisiera registarse en nuestra pagina y obtener beneficios unicos!");
+
+
+if(registrarse){
+    pedirdatos();
+
+    alert("gracias por registrate");
+    
+} 
+function pedirdatos(){
+    let nombre = prompt("Ingresa tu nombre");
+    let mail = prompt("Ingresa tu mail");
+
+    if (nombre && mail) {
+        let usuario1 = new Usuario(nombre, mail);
+        usuario1.saludar();
+    } else {
+        alert("Debes ingresar todos los datos");
+        pedirdatos();
+    }
+}
+
+
+let registrarse = confirm ("Quisiera registarse en nuestra pagina y obtener beneficios unicos!");
+
+
+if(registrarse){
+    pedirdatos();
+
+    alert("gracias por registrate");
+    
+} 
+function pedirdatos(){
+    let nombre = prompt("Ingresa tu nombre");
+    let mail = prompt("Ingresa tu mail");
+
+    if (nombre && mail) {
+        let usuario1 = new Usuario(nombre, mail);
+        usuario1.saludar();
+    } else {
+        alert("Debes ingresar todos los datos");
+        pedirdatos();
+    }
+}
+let seisCuotas = 6;
+let doceCuotas = 12;
+let dieciochoCuotas = 18;
+
+
+const VALORTUPPERDEGOMITAS = 15000;
+
+let Cuotas = parseInt(prompt("Indique la cantidad de cuotas con las que desea pagar 6/12/18"))
+
+let resultadoSeis = (VALORTUPPERDEGOMITAS / seisCuotas);
+let resultadoDoce = (VALORTUPPERDEGOMITAS / doceCuotas);
+let resultadoDieciocho = (VALORTUPPERDEGOMITAS / dieciochoCuotas);
+
+
+
+
+
+if (Cuotas == seisCuotas){
+    let  = confirm ("Usted desea pagar con 6 cuotas?")
+
+    alert("Usted eligio pagar este producto en 6 cuotas")
+        
+        
+    }else if(cuotas == doceCuotas){
+        let cuotasCantidad = confirm ("Usted desea pagar con 12 cuotas?")
+
+        alert("Usted eligio pagar este producto en 12 cuotas")
+        let cuotasCantidad = confirm ("Usted desea pagar con 18 cuotas?")
+
+    }else if(cuotas == dieciochoCuotas){
+
+    alert("Usted eligio pagar este producto en 12 cuotas")
+}
+
+let valorProd = 15000;
+
+let cuotaStr = prompt('En cuantas cuotas desea pagar? (6 , 12 , 18, 24)');
+
+while (cuotaStr != 6 && cuotaStr != 12 && cuotaStr != 18 && cuotaStr != 24) {
+    cuotaStr = prompt('Error. Ingrese un nro de cuotas valido. (6, 12, 18, 24)');
+}
+
+let valorFinal = valorProd / cuotaStr;
+
+alert(`Elegiste ${cuotaStr} cuotas, y el valor de cada cuota sera de: ${valorFinal}`);
+
+empiexa en limpioo
+
+let seisCuotas = 6;
+let doceCuotas = 12;
+let dieciochoCuotas = 18;
+
+
+const VALORTUPPERDEGOMITAS = 15000;
+
+let Cuotas = parseInt(prompt("Indique la cantidad de cuotas con las que desea pagar 6/12/18"))
+
+let resultadoSeis = (VALORTUPPERDEGOMITAS / seisCuotas);
+let resultadoDoce = (VALORTUPPERDEGOMITAS / doceCuotas);
+let resultadoDieciocho = (VALORTUPPERDEGOMITAS / dieciochoCuotas);
+
+
+
+
+
+if (Cuotas == seisCuotas){
+    let  = confirm ("Usted desea pagar con 6 cuotas?")
+
+    alert("Usted eligio pagar este producto en 6 cuotas")
+        
+}
+let valorProd = 15000;
+
+let cuotaStr = prompt('En cuantas cuotas desea pagar? (6 , 12 , 18, 24)');
+
+while (cuotaStr != 6 && cuotaStr != 12 && cuotaStr != 18 && cuotaStr != 24) {
+    cuotaStr = prompt('Error. Ingrese un nro de cuotas valido. (6, 12, 18, 24)');
+}
+
+let valorFinal = valorProd / cuotaStr;
+
+alert(`Elegiste ${cuotaStr} cuotas, y el valor de cada cuota sera de: ${valorFinal}`);
